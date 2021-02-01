@@ -7,6 +7,7 @@ with open('test.m3u', 'w') as file:
 
     for i in mus:
         if i=='test.m3u' or i=='main.py':
+            #to compile the file, replace 'main.py' to 'main.exe'
             pass
         else:
             file.write(r'#EXTINF:1,'+i+'\n')
